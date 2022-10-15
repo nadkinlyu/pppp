@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using Data.Models;
 
-namespace PublishingHouse.Interfaces.Model.Author
+namespace Repo.Models.Discont
 {
 
-public class GetPersonResponse : IPaginationResponse<Person>
+public class GetDiscontResponse : IPaginationResponse<Data.Models.Discont>
 {
 	public Page Page { get; set; } = new Page();
 
 	public long Count { get; set; }
 
-	public IReadOnlyCollection<Person> Items { get; set; }
+	public IReadOnlyCollection<Data.Models.Discont> Items { get; set; }
 }
 }

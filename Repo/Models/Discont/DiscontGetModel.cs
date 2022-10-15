@@ -1,8 +1,8 @@
 ﻿using PublishingHouse.Interfaces.Extensions.Pagination;
 
-namespace PublishingHouse.Interfaces.Model.Author{
+namespace Repo.Models.Discont{
 
-public class PersonGetModel : IPaginationRequest
+public class DiscontGetModel : IPaginationRequest
 {
 	public string Search { get; set; } = string.Empty;
 

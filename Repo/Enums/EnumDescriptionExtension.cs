@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System;
 
-namespace PublishingHouse.Interfaces.Extensions
+namespace Repo
 {
 	/// <summary>
 	/// Расширение для Enum позволяющее извлекать описание поля заданное атрибутом Description 
